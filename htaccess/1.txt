@@ -1,0 +1,1 @@
+DirectoryIndex index.phpRewriteEngine onRewriteCond $1 !^(index\.php|images|css|js|robots\.txt|favicon\.ico)RewriteCond%{REQUEST_FILENAME}!-fRewriteCond%{REQUEST_FILENAME}!-dRewriteRule^(.*)$ ./index.php/$1 [L,QSA]

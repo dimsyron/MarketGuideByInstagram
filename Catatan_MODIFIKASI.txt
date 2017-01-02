@@ -1,0 +1,27 @@
+--- views
+# template/menu
+# investasi/index
+# investasi/update
++ gh_bln/index
+# gh/index
+# home/index
+# akuntansi/index
+
+
+
+--- controller
+# gh
+# investasi
++ gh_bln
+# home
+
+
+
+
+--- db
+# edit tb investasi dengan menambah field status
+	per minggu atau per bulan
+
+--- catatan
+
+UBAH MODE PRODUCTION DI INDEX.PHP
